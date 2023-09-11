@@ -20,14 +20,14 @@ void main() {
 //   print(i);
 //   }
   var s = '';
-for (var i = 0; i < 20; i++) {
+for (var i = 0; i < 5; i++) {
   for (var j = 0; j <= i; j++) {
     s += '😂';
   }
   s += '\n';
 }
 
-for (var i = 19; i > 0; i--) {
+for (var i = 4; i > 0; i--) {
   for (var j = 0; j < i; j++) {
     s += '🤣';
   }
